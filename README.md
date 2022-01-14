@@ -11,8 +11,9 @@ Get get website and url information by this tool.
 5. Website code or structure
 (I will add some more things so, please wait for it guys)
 # requirements
-1. socket
-2. requests
+1. Python
+2. socket (pip install socket)
+3. requests (pip install requests)
 # platform
 Windows, Linux, Android and Mac
 # installation in Linux and Android (Android:- Termux, Andrax etc..)
