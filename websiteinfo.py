@@ -1,3 +1,4 @@
+
 import socket
 import requests
 website = input("Enter website : ")
@@ -24,8 +25,6 @@ if result_of_check == 0:
 else:
    print("Port is not open")
 # website structure
-print ("website requests :" ,res)
-res = requests.get(url)
+page = requests.get(url)
 
-print(res.text)
-print(res.status_code)
+print(page.text)
