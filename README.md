@@ -15,5 +15,10 @@ Get get website and url information by this tool.
 2. requests
 # platform
 Windows, Linux, Android and Mac
-# installation
-##### 
+# installation in Linux and Android (Android:- Termux, Andrax etc..)
+1. $ git clone https://github.com/official-hack4peace/websiteinfo
+2. $ cd websiteinfo
+3. $ python3 websiteinfo.py
+# installation in Windows and Mac
+Download link= https://drive.google.com/file/d/15nMSKoCH0EPtG0eSTFWT3t5ZyMeYJdDr/view?usp=drivesdk
+# practical image
