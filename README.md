@@ -22,4 +22,5 @@ Windows, Linux, Android and Mac
 3. $ python3 websiteinfo.py
 # installation in Windows and Mac
 Download link= https://drive.google.com/file/d/15nMSKoCH0EPtG0eSTFWT3t5ZyMeYJdDr/view?usp=drivesdk
-# practical image
+# thanks
+Thanks for using this tool
