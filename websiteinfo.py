@@ -14,6 +14,21 @@ if info==("https"):
 	print("Secure!") 
 else: 
 	print("Not Secure!")
+# service name by port number
+
+def printServiceOnPort(portNumber, protocol):
+
+    serviceName = socket.getservbyport(portNumber, protocol);
+
+    print("service running at port number %d : %s"%(portNumber, serviceName));
+
+   
+
+
+printServiceOnPort(80,  "tcp");
+
+printServiceOnPort(443, "tcp");
+
 # checking port open or close
 a_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
