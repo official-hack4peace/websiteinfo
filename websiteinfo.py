@@ -1,4 +1,3 @@
-
 import socket
 import requests
 website = input("Enter website : ")
