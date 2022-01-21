@@ -43,7 +43,7 @@ else:
 print ("checking all port's: ")
 server = website
 
-for port in range(1, 100):
+for port in range(1, 443):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	
 	try:
