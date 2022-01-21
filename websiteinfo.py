@@ -29,6 +29,7 @@ printServiceOnPort(80,  "tcp");
 printServiceOnPort(443, "tcp");
 
 # checking port open or close
+print ("checking port open or close: ")
 a_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 location = (website, 80)
@@ -38,6 +39,22 @@ if result_of_check == 0:
    print("Port is open")
 else:
    print("Port is not open")
+# checking all port's
+print ("checking all port's: ")
+server = website
+
+for port in range(1, 100):
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	
+	try:
+	     
+	     s.connect((server, port))
+	     print("port", port, "is open!")
+	     
+	     s.closed()
+	except:
+		print("port", port, "not open!")
+
 # website structure
 page = requests.get(url)
 
