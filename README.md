@@ -8,7 +8,7 @@ Get get website and url information by this tool.
 2. get website IP
 3. security check (it checks website is secure or not but it not works on phishing attack)
 4. Check port is open or close
-5. Website code or structure 
+5. Get website structure and response. 
 6. (new) checking all port's
 (I will add some more things so, please wait for it guys)
 # requirements
