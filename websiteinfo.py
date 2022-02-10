@@ -55,7 +55,7 @@ for port in range(1, 443):
 	except:
 		print("port", port, "not open!")
 
-# website structure
+# website structure and response
 page = requests.get(url)
-
+print(page)
 print(page.text)
