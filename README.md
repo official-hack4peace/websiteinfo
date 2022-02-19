@@ -9,7 +9,7 @@ Get get website and url information by this tool.
 3. security check (it checks website is secure or not but it not works on phishing attack)
 4. Check port is open or close
 5. Get website structure and response. 
-6. (new) checking all port's
+6. (new) checking all port's 
 7.(new) get robots.txt
 (I will add some more things so, please wait for it guys)
 # requirements
