@@ -1,4 +1,4 @@
-print ('''       uuuuuuu
+print ('''           uuuuuuu
              uu$$$$$$$$$$$uu
           uu$$$$$$$$$$$$$$$$$uu
          u$$$$$$$$$$$$$$$$$$$$$u
