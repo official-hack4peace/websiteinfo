@@ -59,3 +59,6 @@ for port in range(1, 443):
 page = requests.get(url)
 print(page)
 print(page.text)
+# robots.txt
+robot = requests.get(url + "/robots.txt")
+print(robot.text)
