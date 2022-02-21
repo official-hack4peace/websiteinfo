@@ -1,4 +1,6 @@
-print ('''           uuuuuuu
+import colorama
+from colorama import Fore, Style
+print (Fore.GREEN + '''           uuuuuuu
              uu$$$$$$$$$$$uu
           uu$$$$$$$$$$$$$$$$$uu
          u$$$$$$$$$$$$$$$$$$$$$u
